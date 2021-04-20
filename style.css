@@ -1,0 +1,64 @@
+* {
+
+margin: 0;
+padding: 0;
+
+}
+.header {
+  background-color:#FF0000; 
+  height: 70px;
+text-align: center;
+color: white;
+}
+
+.content {
+  background-color:#8B0000; 
+  
+text-align: center;
+color: white;
+width: 80%;
+margin: 0 auto;
+
+}
+.footer{
+  background-color:#FF4500; 
+  height: 70px;
+text-align: center;
+color: white;
+}
+.post {
+  display: flex;
+}
+
+.box {
+	flex-grow: 1;
+    background-color: black;
+    padding: 15;
+    margin: 10;
+}
+
+img	{
+
+width: 350px;
+}
+
+.menu{
+
+background-color: #320c75; 
+}
+
+li{
+   display:inline-block;
+   padding: 30px 70px;
+
+}
+
+li:hover{
+   background-color: white; 
+ color: black;
+}
+
+body {
+background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB6_vxQtwrlKbqPD1bQ_zAMuIkxSMnlg0whg&usqp=CAU);
+}
+
